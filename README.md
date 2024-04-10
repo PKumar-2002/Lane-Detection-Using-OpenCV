@@ -3,6 +3,7 @@ Lane Detection using OpenCV and Tkinter
 This project implements a real-time lane detection system using OpenCV and Tkinter in Python. It detects lanes from a live video feed captured by a camera and applies various image processing techniques to highlight the lanes.
 
 Features
+
 Canny Edge Detection: Detects edges in the image using the Canny edge detection algorithm.
 Sobel Edge Detection: Implements edge detection using Sobel operators for horizontal and vertical gradients.
 Hough Line Transform: Utilizes the Hough line transform to detect lines in the edge-detected image.
