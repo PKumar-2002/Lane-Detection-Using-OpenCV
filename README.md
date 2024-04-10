@@ -1,45 +1,37 @@
-Lane Detection using OpenCV and Tkinter
+# Real-Time Lane Detection System
 
-This project implements a real-time lane detection system using OpenCV and Tkinter in Python. It detects lanes from a live video feed captured by a camera and applies various image processing techniques to highlight the lanes.
+Embark on the journey of autonomous driving with our Real-Time Lane Detection System. Utilizing the power of OpenCV and Tkinter, this Python application captures live video feeds to detect and highlight lane markings on the road.
 
->>Features
+## Features
 
-->Canny Edge Detection: Detects edges in the image using the Canny edge detection algorithm.
+- **Canny Edge Detection**: Harnesses the Canny algorithm for precise edge detection.
+- **Sobel Edge Detection**: Employs Sobel operators to identify horizontal and vertical lane edges.
+- **Hough Line Transform**: Detects lane lines even under challenging conditions.
+- **Kalman Filter**: Predicts and tracks lane positions dynamically.
+- **All-in-One Mode**: A synergistic mode combining all techniques for superior detection accuracy.
+- **Tkinter UI**: An intuitive interface to manage detection settings and camera operations.
 
-->Sobel Edge Detection: Implements edge detection using Sobel operators for horizontal and vertical gradients.
+## Usage
 
-->Hough Line Transform: Utilizes the Hough line transform to detect lines in the edge-detected image.
+1. Install Python and the required libraries: `tkinter`, `Pillow (PIL)`, `opencv-python (cv2)`, and `numpy`.
+2. Execute `Lane_Detection.ipynb` to start the application.
+3. Use the "Start Camera" button to begin lane detection.
+4. Switch between detection modes (CED, SED, KFR, HTR, AIO) as needed.
+5. Explore each mode's specifics with mode-specific buttons.
+6. Activate "All-in-One" mode for a comprehensive detection experience.
+7. Close the application to end the session.
 
-->Kalman Filter: Implements a Kalman filter to predict and track the position of lane lines over time.
+## Requirements
 
-->All-in-One Mode: Combines all the above techniques to detect and track lanes in a single mode.
+- **Python**: Version 3.x or higher.
+- **OpenCV**: Core library for image processing and lane detection.
+- **Tkinter**: For crafting the graphical user interface.
+- **Pillow (PIL)**: Manages image display within Tkinter.
+- **NumPy**: Handles numerical operations and array manipulations.
 
-->User Interface with Tkinter: Provides a simple GUI interface to start the camera and toggle between different detection modes.
+## Getting Involved
 
->>Usage
+Contributions are welcome! Whether it's improving algorithms, enhancing the UI, or suggesting new features, your input can drive this project forward.
 
-1. Ensure you have Python installed on your system along with the necessary libraries (tkinter, PIL, cv2, numpy).
 
-2. Run the lane_detection.py script using a Python interpreter.
-
-3. Click on the "Start Camera" button to initiate the camera feed.
-
-4. Toggle between different lane detection modes using the provided buttons (CED, SED, KFR, HTR, AIO).
-
-5. Optionally, click on the mode-specific buttons to display information about each technique.
-
-6. Press the "AIO" button to activate the All-in-One mode for comprehensive lane detection.
-
-7. Close the application window to stop the camera feed and exit the program.
-
->>Requirements
-
-->Python 3.x
-
-->OpenCV (cv2)
-
-->Tkinter
-
-->PIL (Python Imaging Library)
-
-->NumPy
+Join us in advancing the field of lane detection for safer and smarter driving technologies.
